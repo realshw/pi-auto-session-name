@@ -1,0 +1,24 @@
+{
+	"name": "pi-auto-session-name",
+	"version": "0.1.0",
+	"description": "Pi extension that names new sessions automatically with a short model-generated title",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-extension",
+		"session"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/realshw/pi-auto-session-name.git"
+	},
+	"pi": {
+		"extensions": [
+			"./extensions/auto-session-name.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}
